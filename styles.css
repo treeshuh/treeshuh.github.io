@@ -1,0 +1,60 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway'; /*Also included 'Raleway*/
+	color: #7eb3e4;
+}
+
+.full-width {
+	width: 100vw;
+}
+
+.full-height {
+	height: 100vh;
+}
+
+.strong {
+	font-weight: 700;
+}
+
+#about {
+	background-image: url('long.png');
+	background-size: cover;
+	overflow: auto;
+}
+
+h1 {
+	font-family: 'Work Sans';
+	letter-spacing: 5px;
+	font-size: 50px;
+	font-weight: 300;
+	color: #515b60;
+}
+
+#about .offset-text {
+	left: 45vw;
+	top: 25vh;
+	position: relative;
+	display: inline-block;
+}
+
+#about p.description {
+	font-family: 'Raleway';
+	font-style: italic;
+	max-width: 500px;
+	font-size: 18px;
+	letter-spacing: 3px;
+	line-height: 150%;
+	margin-bottom: 50px;
+}
+
+#about .link-container {
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #515b60;
+}
