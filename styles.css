@@ -50,6 +50,7 @@ h1 .strong {
 
 h1 .strong.blue-text {
 	color: #7eb3e4;
+	font-weight: 300;
 }
 
 a {
@@ -63,7 +64,7 @@ a:hover {
 }
 
 #about {
-	background-image: url('long.png');
+	background-image: url('long-small.png');
 	background-size: cover;
 	overflow: auto;
 }
@@ -78,7 +79,7 @@ a:hover {
 #about p.description {
 	font-family: 'Raleway';
 	font-style: italic;
-	max-width: 500px;
+	max-width: 650px;
 	font-size: 18px;
 	letter-spacing: 3px;
 	line-height: 150%;
@@ -94,18 +95,18 @@ a:hover {
 
 #projects {
 	background-color: #363e42;
-	vertical-align: top;
 }
 
 #projects h1 {
 	margin: 0;
 	padding: 50px;
+	padding-left: 150px;
 	padding-bottom: 25px;
 }
 
 #projects .projects-list {
 	vertical-align: top;
-	padding-left: 50px;
+	padding-left: 150px;
 
 }
 
@@ -142,13 +143,14 @@ a:hover {
 
 #projects .projects-project {
 	border: 3px solid #d2baac;
-	width: 80vw;
+	width: 65vw;
+	height: 65vh;
 }
 
 #projects .projects-pic {
 	background-color: #efefef;
-	width: 40vw;
-	height: 75vh;
+	width: 20vw;
+	height: 100%;
 	vertical-align: top;
 }
 
@@ -167,7 +169,7 @@ a:hover {
 	vertical-align: top;
 	padding: 20px;
 	letter-spacing: 2px;
-	max-width: 35vw;
+	max-width: 40vw;
 }
 
 #projects .projects-description a {
