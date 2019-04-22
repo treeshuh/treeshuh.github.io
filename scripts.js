@@ -8,7 +8,7 @@ projects = {
             + "This site makes it easy to collect orders and keep track of which ones have been placed."
     },
     'next poke' : {
-        status: "ACTIVE at <a href='http://ketchum.mit.edu/welcome' target='_blank'>ketchum.mit.edu</a>! Or you can scan the QR code!",
+        status: "INACTIVE.",
         tc: "March 2014 with <a href='https://github.com/maplenormandy' target='_blank'>maplenormandy</a>, "
             + "iterated on in Spring/Summer 2015 and 2016 with maplenormandy and <a href='https://github.com/lahuang4' target='_blank'>lahuang4</a>."
             + " Made with node.js, Handlebars.js, and Python.",
@@ -17,9 +17,7 @@ projects = {
             + "resident exploration (REX) and campus preview weekend (CPW)."
     },
     'karaoke' : {
-        status: "ACTIVE. You can go to <a href='http://next-bake.mit.edu/karaoke-player.html' target='_blank'>the admin page</a> to make a new session, "
-            + "then go to <a href='http://next-bake.mit.edu/karaoke.html' target='_blank'>the participant page</a> to add songs. "
-            + "The host can then play the songs, and the participants can see the progress through the list.",
+        status: "INACTIVE.",
         tc: "March 2015. Made with Firebase, React.js, and the Youtube API",
         purpose: "What does baking have to do with karaoke? It turns out, the Next Bake Mixer, an event where we baked cupcakes and had karaoke, "
             + "was our club's most popular event of the year. The karaoke app makes it easier for people to queue their own songs, so club members "
