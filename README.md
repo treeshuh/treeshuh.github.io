@@ -1,2 +1,0 @@
-# triciaio
-personal website
